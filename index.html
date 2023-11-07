@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-bs-theme="light">
+<html lang="en" data-bs-theme="dark">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,9 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
   </head>
 
-  <header>
-    <div class="px-3 py-2 text-bg-dark border-bottom">
-      <div class="container">
+   <!-- Header -->
+   <header>
+    <div class="px-3 py-2 text-bg-dark border-bottom" id="header-box">
+      <div class="container" id="header-box" style="margin-bottom: 10px !important;">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
           <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
             <li>
@@ -43,13 +44,17 @@
     </div>
   </header>
 
+<!-- Main Title Text -->
   <body background="./background.jpg">
-
-    <div class="px-4 pt-5 my-5 text-center">
-      <h1 class="display-4 fw-bold text-body-emphasis" id="banner-text">My Portfolio</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4" id="banner-text">"And you always fear...what you don't understand."</p>
-        <p class="lead mb-4" id="banner-text">- Falconi</p>
+    <div class="px-4 pt-5 my-5 text-left" id=mainbody>
+      <h1 class="display-4 text-body-emphasis" id="banner-text">Hello.</h1>
+      <h2 class="display-4 text-body-emphasis" id="banner-text">I'm Joshua, Python developer.</h2>
+      <div class="col-md-6" style="margin-top: 80px; margin-left: 10px;">
+        <div class="h-100 p-5 text-bg-dark rounded-3" id="projects" style="background-color: rgba(0, 255, 255, 0.178) !important;">
+          <h2>Check out my work here:</h2>
+          <p>SQLite, Pandas, Plotly, Selenium and more...</p>
+          <button class="btn btn-outline-light" type="button">Projects</button>
+        </div>
       </div>
       <div class="overflow-hidden" style="max-height: 30vh;">
         <div class="container px-5">
@@ -58,54 +63,20 @@
     </div>
 
 
-
-    <div class="dropdown-menu position-static d-flex flex-column flex-lg-row align-items-stretch justify-content-start p-3 rounded-3 shadow-lg" data-bs-theme="dark">
-      <nav class="col-lg-8">
-        <ul class="list-unstyled d-flex flex-column gap-2">
-          <li>
-            <a href="#" class="btn btn-hover-light rounded-2 d-flex align-items-start gap-2 py-2 px-3 lh-sm text-start">
-              <svg class="bi" width="24" height="24"><use xlink:href="#image-fill"></use></svg>
-              <div>
-                <strong class="d-block">Main product</strong>
-                <small>Take a tour through the product</small>
-              </div>
-            </a>
-          </li>
-            <a href="#" class="btn btn-hover-light rounded-2 d-flex align-items-start gap-2 py-2 px-3 lh-sm text-start">
-              <svg class="bi" width="24" height="24"><use xlink:href="#question-circle"></use></svg>
-              <div>
-                <strong class="d-block">Support</strong>
-                <small>Get help from our support crew</small>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <div class="d-none d-lg-block vr mx-4 opacity-10">&nbsp;</div>
-      <hr class="d-lg-none">
-      <div class="col-lg-auto pe-3">
-        <nav>
-          <ul class="d-flex flex-column gap-2 list-unstyled small">
-            <li><a href="#" class="link-offset-2 link-underline link-underline-opacity-25 link-underline-opacity-75-hover">Documentation</a></li>
-            <li><a href="#" class="link-offset-2 link-underline link-underline-opacity-25 link-underline-opacity-75-hover">Use cases</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 
+<!-- Footer -->
   <div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 ">
       <div class="col-md-4 d-flex align-items-center">
         <span class="mb-3 mb-md-0 text-body-secondary" id="footer-text">© 2023 Joshua Lehr</span>
       </div>
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-body-secondary" href="Insert Twitter (aka 'X') link here"><i class="bi-github" style="font-size: 2rem; color: white;"></i></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="Insert LinkedIn link here"><i class="bi-linkedin" style="font-size: 2rem; color: rgb(51, 92, 167);"></i></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="Insert Instagram link here"><i class="bi-instagram" style="font-size: 2rem;"></i></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="Insert Facebook link here"><i class="bi-facebook" style="font-size: 2rem; color: rgb(40, 87, 173);"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi-github" style="font-size: 2.6rem; color: white;"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi-linkedin" style="font-size: 2.6rem; color: rgb(51, 92, 167);"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi-instagram" style="font-size: 2.6rem;"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi-facebook" style="font-size: 2.6rem; color: rgb(40, 87, 173);"></i></a></li>
       </ul>
     </footer>
   </div>
