@@ -6,11 +6,11 @@
     -webkit-background-clip: text;
   }
 
-  /* .profile-pic {
-    max-width:"50%" !important;
-    height: 200px;
-    margin: 10px;
-  } */
+  #profile-pic {
+    max-width:"50%";
+    height: 400px;
+    margin-bottom: 50px;
+  }
 
   #banner-text {
     color: rgb(223, 223, 223) !important;
@@ -27,10 +27,17 @@
     margin-top: 150px !important;
   }
 
-  /* #myCarousel {
-    background-color: rgb(56, 3, 117) !important;
-    opacity: .5 !important;
-  } */
+  #div-button {
+    background-color: rgb(36, 36, 36);
+    color: rgba(255, 255, 255, 0.788);
+    border-color: rgb(36, 36, 36);
+  }
+
+  #div-button:hover {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    border-color: rgb(41, 41, 41);
+  }
 
   #projects {
     opacity: .7 !important;
@@ -48,4 +55,37 @@
 
   #header-box {
     background-color: rgb(22, 22, 22) !important;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #logos {
+    margin-left: 710px;
+  }
+
+  #project-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  #about-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  #about-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+  }
+
+  #about-box {
+    margin-top: 100px;
+    background-color: rgba(13, 68, 75, 0.301)
   }

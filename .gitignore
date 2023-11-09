@@ -27,6 +27,7 @@ _testmain.go
 *.iml
 
 # Directory-based project format:
+**/node_modules
 .idea/
 .idea/workspace.xml
 **/.idea/workspace.xml
@@ -46,3 +47,4 @@ _testmain.go
 #*.png
 #*.jpeg
 *.psd
+*.json
